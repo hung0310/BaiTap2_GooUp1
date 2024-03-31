@@ -1,0 +1,257 @@
+.main {
+    display: flex;
+    width: 1583px;
+    flex-direction: column;
+    align-items: center;
+    gap: 51px;
+    background: #FFF;
+}
+
+.header {
+    display: flex;
+    padding: 62px 199px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+}
+
+.content_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+} 
+
+.title, .paragraphe {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.title {
+    color: var(--first-text, #2D3748);
+
+    /* Second Headline */
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px; /* 123.913% */
+    letter-spacing: 0.2px;
+}
+
+.paragraphe {
+    color: var(--second-text, #A0AEC0);
+
+    /* Paragraphe */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+.content_footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input_text {
+    display: flex;
+    height: 52px;
+    width: 284px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #D0D0D0;
+    background: #EFEFEF;
+}
+
+.input_text::placeholder {
+    position: relative;
+    transform: translateX(28px);
+    color: var(--second-text, #A0AEC0);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 160% */
+    letter-spacing: 0.2px;
+}
+
+.btn_submit {
+    display: flex;
+    height: 52px;
+    padding: 20px 36px;
+    align-items: center;
+
+    border-radius: 39px;
+    background: var(--secondary, #03D6F3);
+    border: 1px solid var(--primary, #4FD1C5);
+    /* shadow */
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sub {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Button */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.2px;
+}
+
+/* ---------------------------------------- */
+
+.footer {
+    display: flex;
+    padding: 62px 86px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: var(--secondary, #2D3748);
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.col_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+}
+
+.content_col_left {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.list {
+    display: flex;
+    width: 121px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content_list {
+    display: flex;
+    align-items: center;
+
+    color: var(--light-text, #FFF);
+
+    /* Link */
+    font-family: Poppins;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+
+    /* Subtitle */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.center {
+    display: flex;
+    width: 334px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    height: 247px;
+    align-self: stretch;
+
+    border-radius: 22px;
+    background: url("map.png") lightgray 50% / cover no-repeat;
+}
+
+.col_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.icon_map {
+    width: 46px;
+    height: 46px;
+}
+
+.icon_phone {
+    width: 35px;
+    height: 35px;
+}
+
+.icon_mda {
+    width: 40.987px;
+    height: 40.987px;
+}
+
+.address {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.add {
+    color: var(--light-text, #FFF);
+
+    /* Link */
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+    letter-spacing: 0.2px;
+}
+
+.social_media {
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    gap: 24px;
+}
